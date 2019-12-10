@@ -1,0 +1,20 @@
+.header{
+    background-color: black;
+}
+
+nav{
+    background: black;
+}
+
+#nav ul li a, 
+nav a{
+    border-radius: 5px;
+    color: white;
+}
+
+#nav ul li a:hover, 
+nav a:hover{
+    background: orange;
+    color: black;
+    transition: .5s;
+}
