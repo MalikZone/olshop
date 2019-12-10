@@ -2,19 +2,97 @@
     background-color: black;
 }
 
-nav{
-    background: black;
+.header .navbar a img{
+  width: 50px;
+  height: 50px;
 }
 
-#nav ul li a, 
+#carouselExampleCaptions img{
+  height: 600px;
+}
+
+nav{
+    background: black;
+    border: 1px;
+}
+
+#nav ul li a,
 nav a{
     border-radius: 5px;
     color: white;
 }
 
-#nav ul li a:hover, 
+#nav ul li a:hover,
 nav a:hover{
     background: orange;
     color: black;
     transition: .5s;
+}
+
+.carousel{
+  margin-bottom: 40px;
+}
+
+.card-deck .card{
+  opacity: .3;
+  border-style: none;
+}
+
+#pertama{
+  margin-bottom: 40px;
+}
+
+#kedua{
+  background: #f9f9f9;
+  /* background: yellow; */
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+#kedua h4, #kedua p{
+  text-align: center;
+}
+
+#kedua img{
+  margin-top: 40px;
+}
+
+#kedua a{
+  text-decoration: none;
+  color: black;
+}
+
+#kedua a:hover{
+  color: orange;
+}
+
+#kedua h6{
+  color: grey;
+}
+
+#ketiga h4, #ketiga p{
+  text-align: center;
+}
+
+#ketiga a{
+  text-decoration: none;
+  color: black;
+}
+
+#ketiga a:hover{
+  color: orange;
+}
+
+#ketiga img{
+  border-radius: 100%;
+}
+
+.footer{
+  background: #f1f1f1;
+  padding-bottom: 100px;
+}
+
+.footer img{
+  width: 50px;
+  height: 50px;
 }
